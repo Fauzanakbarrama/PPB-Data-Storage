@@ -44,6 +44,9 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    private void checkUser() {
+    }
+
     public Boolean validateUsername() {
         String val = usernameLogin.getText().toString();
         if (val.isEmpty()){
@@ -65,4 +68,5 @@ public class LoginActivity extends AppCompatActivity {
             return true;
         }
     }
+    
 }
